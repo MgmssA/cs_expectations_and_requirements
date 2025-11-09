@@ -1,0 +1,19 @@
+---
+title: |
+    <p>![](style/mgmss_symbol_color.png){width=40px}</p>
+    Erwartung und Anforderung - Informatik 9
+subtitle: 'Wie bist Du erfolgreich in Informatik der Stufe 9?<br><small>Information</small>'
+date: 2025-10-01 
+date-modified: 2025-10-01
+author: Călin Aurel Drăgan
+abstract: 'In diesem Dokument wird Deine Zusammenarbeit mit der Lehrkraft geregelt. Lies das hier sorgfältig durch, damit Du keine Überraschungen erlebst. Diese Regeln und Empfehlungen sind in Deinem Interesse geschrieben, damit Du eine gute Chance hast, Deine Schulziele zu erreichen.'
+# bibliography: references.bib
+format: 
+    csdoc-html:
+        include-in-header: _includes/_in_header.html
+        # include-after-body: _includes/_after_body.html
+        embed-resources: false
+        self-contained-math: false
+filters:
+  - highlight-text
+---

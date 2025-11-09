@@ -1,0 +1,100 @@
+{{< include _includes/_front_matter.qmd >}}
+{{< include _includes/_init_fontawesome.qmd >}} 
+{{< include _includes/_katex_macros.qmd >}} 
+{{< include _includes/_r_themes.qmd >}}
+
+## Situation
+
+Das Saarland hat sich entschieden, die Informatik als Schulfach im Pflichtbereich anzusiedeln. Die Informatik ist allerdings nicht direkt relevant für das Erreichen der E und A Kurse und wird nicht differenziert unterrichtet. Dies ist alleine Mathematik, Deutsch, einer Fremdsprache, Physik und Chemie vorbehalten.
+
+Falls Du um das Erreichen von E oder A Kursen kämpfst, fokussiere primär auf diese fünf Fächer. Solltest Du jedoch aus irgendeinem Grund statt fünf nur vier A Kurse im Verlauf der Stufe 10 einholen, dann könnte es sein, dass wir ein Neueinstufung vornehmen, die von Deiner durchschnittlichen Gesamtnote abhängt. 
+
+Um diese Neueinstufung überhaupt wahrnehmen zu können, musst Du in Informatik, aber auch in Gesellschaftswissenschaften und anderen Fächern, eine gute bis sehr gute Leistung zeigen. Deswegen ist eine grundsätzlich solide Arbeitseinstellung hilfreich.
+
+## Erwartung
+
+Reiche die Antworten als digitales Dokument ein, wie in der entsprechenden Aufgabe im Lernmodul auf *Teams* beschrieben. Es gibt dabei zwei grundsätzliche Arten von Aufgaben: die erste ist etwas einfacher und erfordert die Wiedergabe von Fakten und Rechenwegen. Die zweite Art erfordert, dass Du Probleme löst. Das ist auch die Art, die Dir später in Beruf, Forschung und Entwicklung, Management, usw. begegnen wird. Bei der letzteren gibt es grundsätzlich mehr Punkte.
+
+### Verhalten bei Schwierigkeiten
+
+Falls Du Schwierigkeiten hast, musst Du diese proaktiv Deinem Fachlehrer mitteilen und angehen. Am besten machst Du das schriftlich über *Teams*. Wenn Du dies nicht mindestens 48 Stunden vor Abgabe machst, dann wird Deine Leistung entsprechend benotet. 
+
+### Beantwortung der Aufgabe mit Text
+
+Fragen nach Erläuterungen und Beschreibungen werden mithilfe von Fachbegriffen beantwortet. Gibt es eine richtige Beschreibung aber keine Fachbegriffe, dann bekommst Du nur 50% der Punkte. Gibt es keine Beschreibung und lediglich eine Liste von Fachbegriffen, dann kann die Leistung nicht gewertet werden. 
+
+### Beantwortung mit Quellcode
+
+Alle Aufgaben, bei denen Quellcode geschrieben wird, werden folgendermaßen angegangen:
+
+#. Code wird mit einem Quellcodemanagementsystem gepflegt
+#. Code ist entsprechend der Richtlinien der Programmiersprache geschrieben
+#. Code wird kommentiert
+#. Code wird getestet vor dem Einreichen als Aufgabenlösung
+#. Code löst die Aufgabe zu 100%
+
+Für das Einhalten dieser Vorgaben gibt es jeweils 20% der Punkte.
+
+## Anforderung
+
+Es gibt drei Schwierigkeitsstufen bei den Aufgaben.
+
+- Stufe I ist auf G Kurs Niveau angesiedelt. 
+- Stufe II ist auf G oder E Niveau angesiedelt.
+- Stufe III ist komplett auf A Kurs Niveau angesiedelt.
+
+Da es nur noch eine interne Notenskala gibt, solltest Du nicht nur Aufgaben auf Stufe I und II lösen. Die Aufgaben der Stufe I werden mit **1** multipliziert, Aufgaben der Stufe II mit **2** und Aufgaben der Stufe III mit einem Faktor **3**. Um in den Aufgaben gut abzuschneiden, solltest Du mit Regelmässigkeit Aufgaben aus Stufe II und manchmal III angehen.
+
+### Berechnung der Gesamtnote
+
+Deine Gesamtnote setzt sich aus folgenden Elementen zusammen:
+
+- Bearbeitung von Aufgaben entweder schriftlich oder durch Code: fließt zu mindestens 50% in die Zeugnisnote ein. Wenn nicht benotet, dann erfolgt trotzdem eine **00 Minderleistung** bei Nichteinreichen der Aufgaben 
+- Mündliche Mitarbeit: regelmäßige Beiträge, heisst mindestens einmal pro Fachunterrichtseinheit, fließt zu höchstens 25% oder 1/4 in die Zeugnisnote ein
+- Lernstandsüberprüfungen: fließt zu höchstens 25% oder 1/4 in die Zeugnisnote ein
+
+Die aktuelle Notenberechnung in Biologie Stufe 10 ist
+
+$$
+\mathrm{Zeugnis} = \frac{1}{2} \cdot \mathrm{Aufgaben} + \frac{1}{4} \cdot \mathrm{Mündlich} + \frac{1}{4} \cdot \mathrm{Schriftlich}
+$$
+
+Dabei sind alle Noten Durchschnittswerte pro Halbjahr.
+
+::: {.callout-tip title="Beispiel"}
+
+Du hast bei den Aufgaben eine 13, die mündliche Mitarbeit ist eine 08, und bei LSÜs hast Du 10. Dann ist Deine Zeugnisnote
+
+$$
+\frac{1}{2} \cdot 13 + \frac{1}{4} \cdot 8 + \frac{1}{4} \cdot 10 = 11
+$$
+
+:::
+
+### Berechne Deine Zeugnisnote
+
+Wähle Deine Durchschnittsnote mit den Schiebereglern:
+
+```{ojs}
+// task_grade = 10;
+viewof task_grade = Inputs.range(
+    [0, 15], 
+    {value: 7, step: 1, label: "Durchschnitt bei Aufgabe:"}
+)
+viewof oral_grade = Inputs.range(
+    [0, 15], 
+    {value: 7, step: 1, label: "Durchschnitt mündlich:"}
+)
+viewof written_grade = Inputs.range(
+    [0, 15], 
+    {value: 7, step: 1, label: "Durchschnitt LSÜ:"}
+)
+```
+
+```{ojs}
+grade = 1/2 * task_grade + 1/4 * oral_grade + 1/4 * written_grade;
+```
+[Deine Zeugnisnote ist `{ojs} Math.round(grade)`.]{fg="red"} 
+
+Die Berechnung ergibt manchmal Dezimalstellen. Diese wurden im Standardverfahren der mathematischen Rundung auf die nächstmögliche ganze Zahl gerundet. 
+
