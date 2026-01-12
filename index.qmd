@@ -92,7 +92,7 @@ Deine Gesamtnote setzt sich aus folgenden Elementen zusammen:
 - Mündliche Mitarbeit: aktuell nicht erforderlich ~~regelmäßige Beiträge, heisst mindestens einmal pro Fachunterrichtseinheit, fließt zu höchstens 25% oder 1/4 in die Zeugnisnote ein~~
 - Lernstandsüberprüfungen: aktuell nicht erforderlich ~~fließt zu höchstens 25% oder 1/4 in die Zeugnisnote ein~~
 
-Die aktuelle Notenberechnung in Biologie Stufe 10 ist
+Die aktuelle Notenberechnung in Informatik Stufe 10 ist
 
 $$
 \mathrm{Zeugnis} = 1 \cdot \mathrm{Aufgaben} + 0 \cdot \mathrm{Mündlich} + 0 \cdot \mathrm{Schriftlich}
