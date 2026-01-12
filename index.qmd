@@ -5,15 +5,54 @@
 
 ## Situation
 
-Das Saarland hat sich entschieden, die Informatik als Schulfach im Pflichtbereich anzusiedeln. Die Informatik ist allerdings nicht direkt relevant für das Erreichen der E und A Kurse und wird nicht differenziert unterrichtet. Dies ist alleine Mathematik, Deutsch, einer Fremdsprache, Physik und Chemie vorbehalten.
+Das Saarland hat sich entschieden, die Informatik als Schulfach im Pflichtbereich anzusiedeln. Diese Entscheidung ist gut, da die Informatik die Grundlage einer der profiabelsten Industrien ist: Software und Diensleistungen. Die Informatik ist die Grundlage der modernen Welt und des Informationszeitalters.
 
-Falls Du um das Erreichen von E oder A Kursen kämpfst, fokussiere primär auf diese fünf Fächer. Solltest Du jedoch aus irgendeinem Grund statt fünf nur vier A Kurse im Verlauf der Stufe 10 einholen, dann könnte es sein, dass wir ein Neueinstufung vornehmen, die von Deiner durchschnittlichen Gesamtnote abhängt. 
+Die Informatik ist allerdings nicht direkt relevant für das Erreichen der E und A Kurse und wird nicht differenziert unterrichtet. Dies ist alleine Mathematik, Deutsch, der ersten Fremdsprache, Physik und Chemie vorbehalten.
 
-Um diese Neueinstufung überhaupt wahrnehmen zu können, musst Du in Informatik, aber auch in Gesellschaftswissenschaften und anderen Fächern, eine gute bis sehr gute Leistung zeigen. Deswegen ist eine grundsätzlich solide Arbeitseinstellung hilfreich.
+## Bedeutung der Informatik
 
-## Erwartung
+Zuerst betrachte Dir die Anforderungen für das Erreichen des mittleren Bildungsabschlusses und für den Übergang in die Oberstufe. Danach lies Dir durch, welche Rolle die Informatik spielt.
+
+### Mittlerer Bildungsabschluss
+
+Für das Erreichen dieses Abschlusses gilt folgendes
+
+- Kursniveau **E** in allen differenzierten Fächer
+- In allen Fächern mindestens Note 04
+- In mindestens zwei Fächern ausser Deutsch, Mathematik, erste Fremdsprache, Physik oder Chemie, mindestens Note 07
+
+Daneben gibt es einige Ausgleichsregelungen. Den Sinn der Ausgleichsregelungen mag unterschiedlich interpretiert werden. Eine Möglichkeit ist es, sie als Notlösungen anzusehen. Deswegen führe ich sie hier nicht auf. Es sollte genügend Anstrengungsbereitschaft da sein, den mittleren Bildungsabschluss alleine mithilfe der drei obengenannten Punkte zu erreichen. 
+
+### Gymnasiale Oberstufe
+
+Den Eintritt in die Oberstufe schafft man folgendermaßen:
+
+- Unterricht in der zweiten Fremdsprache ab Stufe 7
+- Spätestens zum zweiten Halbjahr der Stufe 10 in drei der Fächer Deutsch, Mathematik, erste Fremdsprache, Physik oder Chemie das Kursniveau **A** erreichen
+- In allen Fächern Deutsch, Mathematik, erste Fremdsprache, Physik, Chemie mindestens Note 04
+- In allen Fächer ausser Deutsch, Mathematik, erste Fremdsprache, Physik oder Chemie eine Durchschnittsnote von mindestens 07
+    + Dabei nur ein Fach mit weniger als 04 aber nicht 00
+    + Die Leistung eines der Fächer Deutsch, Mathematik, erste Fremdsprache, Physik, Chemie, die nicht auf Kursniveau **A** sind, werden auf Kursniveau **E** bewertet
+
+Daneben gibt es weitere Ausgleichsregelungen. Auch hier gilt das für den mittleren Abschluss Gesagte: der reguläre Übergang sollte Dein Ziel sein. Deshalb erwähne ich die Ausgleichsregelungen hier nicht.
+
+### Empfehlungen und Rolle der Informatik
+
+Falls Du um das Erreichen von **A** Kursen kämpfst, fokussiere primär auf die Fächergruppe Deutsch, Mathematik, erste Fremdsprache, Physik oder Chemie. Die Informatik trägt zum Durchschnitt der Nichtkernfächer bei und darüberhinaus, wenn eine Ausgleichsregelung in Kraft tritt. 
+
+## Erwartung an Dich
 
 Reiche die Antworten als digitales Dokument ein, wie in der entsprechenden Aufgabe im Lernmodul auf *Teams* beschrieben. Es gibt dabei zwei grundsätzliche Arten von Aufgaben: die erste ist etwas einfacher und erfordert die Wiedergabe von Fakten und Rechenwegen. Die zweite Art erfordert, dass Du Probleme löst. Das ist auch die Art, die Dir später in Beruf, Forschung und Entwicklung, Management, usw. begegnen wird. Bei der letzteren gibt es grundsätzlich mehr Punkte.
+
+### Anforderungen
+
+- Gruppenarbeit: maximum zwei Personen
+    + Nur hier darf der inhalt identisch sein
+    + Beide Namen werden leserlich auf den Abgaben vermerkt
+    + Jedes Gruppenmitlgied lädt seine Version hoch
+- Leserliche Schrift; keine Bewertung, falls unleserlich
+- Bildqualität: Hochformat, nur Blatt gezeigt
+- Inhaltsgleiche Abgaben sind inakzeptabel
 
 ### Verhalten bei Schwierigkeiten
 
@@ -28,14 +67,14 @@ Fragen nach Erläuterungen und Beschreibungen werden mithilfe von Fachbegriffen 
 Alle Aufgaben, bei denen Quellcode geschrieben wird, werden folgendermaßen angegangen:
 
 #. Code wird mit einem Quellcodemanagementsystem gepflegt
-#. Code ist entsprechend der Richtlinien der Programmiersprache geschrieben
+#. Code ist entsprechend der Richtlinien des Programmierstils geschrieben
 #. Code wird kommentiert
 #. Code wird getestet vor dem Einreichen als Aufgabenlösung
 #. Code löst die Aufgabe zu 100%
 
 Für das Einhalten dieser Vorgaben gibt es jeweils 20% der Punkte.
 
-## Anforderung
+### Schwierigkeitsstufen
 
 Es gibt drei Schwierigkeitsstufen bei den Aufgaben.
 
@@ -50,26 +89,24 @@ Da es nur noch eine interne Notenskala gibt, solltest Du nicht nur Aufgaben auf 
 Deine Gesamtnote setzt sich aus folgenden Elementen zusammen:
 
 - Bearbeitung von Aufgaben entweder schriftlich oder durch Code: fließt zu mindestens 50% in die Zeugnisnote ein. Wenn nicht benotet, dann erfolgt trotzdem eine **00 Minderleistung** bei Nichteinreichen der Aufgaben 
-- Mündliche Mitarbeit: regelmäßige Beiträge, heisst mindestens einmal pro Fachunterrichtseinheit, fließt zu höchstens 25% oder 1/4 in die Zeugnisnote ein
-- Lernstandsüberprüfungen: fließt zu höchstens 25% oder 1/4 in die Zeugnisnote ein
+- Mündliche Mitarbeit: aktuell nicht erforderlich ~~regelmäßige Beiträge, heisst mindestens einmal pro Fachunterrichtseinheit, fließt zu höchstens 25% oder 1/4 in die Zeugnisnote ein~~
+- Lernstandsüberprüfungen: aktuell nicht erforderlich ~~fließt zu höchstens 25% oder 1/4 in die Zeugnisnote ein~~
 
 Die aktuelle Notenberechnung in Biologie Stufe 10 ist
 
 $$
-\mathrm{Zeugnis} = \frac{1}{2} \cdot \mathrm{Aufgaben} + \frac{1}{4} \cdot \mathrm{Mündlich} + \frac{1}{4} \cdot \mathrm{Schriftlich}
+\mathrm{Zeugnis} = 1 \cdot \mathrm{Aufgaben} + 0 \cdot \mathrm{Mündlich} + 0 \cdot \mathrm{Schriftlich}
 $$
 
 Dabei sind alle Noten Durchschnittswerte pro Halbjahr.
 
-::: {.callout-tip title="Beispiel"}
+::: {.callout-tip .hidden title="Beispiel"}
 
 Du hast bei den Aufgaben eine 13, die mündliche Mitarbeit ist eine 08, und bei LSÜs hast Du 10. Dann ist Deine Zeugnisnote
 
 $$
 \frac{1}{2} \cdot 13 + \frac{1}{4} \cdot 8 + \frac{1}{4} \cdot 10 = 11
 $$
-
-:::
 
 ### Berechne Deine Zeugnisnote
 
@@ -97,4 +134,6 @@ grade = 1/2 * task_grade + 1/4 * oral_grade + 1/4 * written_grade;
 [Deine Zeugnisnote ist `{ojs} Math.round(grade)`.]{fg="red"} 
 
 Die Berechnung ergibt manchmal Dezimalstellen. Diese wurden im Standardverfahren der mathematischen Rundung auf die nächstmögliche ganze Zahl gerundet. 
+
+:::
 
